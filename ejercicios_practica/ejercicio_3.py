@@ -2,7 +2,7 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 2.1
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
@@ -18,9 +18,11 @@ print('Ingrese por consola su apellido/s:')
 apellido = str(input())
 
 # Imprima su nombre completo
-
+print('Su nombre completo es: ', nombre + ' ' + apellido)
 # Almacenar su nombre completo en una variable
 # nombre_completo = .....
-
+nombre_completo = nombre + apellido
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+cantidad_letras = len(nombre_completo)
+print('La cantidad de letras de su nombre completo es: ', cantidad_letras)
