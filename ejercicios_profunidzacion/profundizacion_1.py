@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 2.1
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -31,3 +31,29 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+#Ingreso de variables por teclado
+print('Ingrese el primer número con el que quiere operar: ')
+numero_1 = float(input())
+print('Ingrese el segundo número con el que quiere operar: ')
+numero_2 = float(input())
+
+#SUMA
+resultado = numero_1 + numero_2
+print ('La suma entre', numero_1, 'y', numero_2, 'es:', resultado)
+
+#RESTA
+resultado = numero_1 - numero_2
+print ('La resta de', numero_1, 'menos', numero_2, 'es:', resultado)
+
+#MULTIPLICACIÓN
+resultado = numero_1 * numero_2
+print ('La multiplicación entre', numero_1, 'y', numero_2, 'es:', resultado)
+
+#DIVISIÓN
+resultado = numero_1 / numero_2
+print ('La división de', numero_1, 'por', numero_2, 'es:', resultado)
+
+#POTENCIA
+resultado = numero_1 ** numero_2
+print ('El resultado de elevar', numero_1, 'a la potencia de', numero_2, 'es:', resultado)
