@@ -46,3 +46,18 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Comencemos a ponernos serios')
 # Empezar aquí la resolución del ejercicio
+
+print('Por favor ingrese nombre y apellido de la primera persona:')
+persona_1 = str(input())
+
+print('Por favor ingrese nombre y apellido de la segunda persona:')
+persona_2 = str(input())
+
+nombre_1, apellido_1 = persona_1.split(' ')
+nombre_2, apellido_2 = persona_2.split(' ')
+#print(apellido)
+
+if apellido_2 == apellido_1:
+  print('Las personas ingresadas son familiares')
+else: 
+  print('Las personas ingresadas no son familiares')
